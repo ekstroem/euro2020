@@ -2,7 +2,7 @@
 
 Prediction competition for the Euro 2020 football winners from eRum 2020. 
 
-The slides from the talk can be found here.
+The slides from the talk can be [found here](https://biostatistics.dk/talks/eRum2020/pred.pdf).
 
 ## Competition rules
 
@@ -41,7 +41,7 @@ The TRPS is defined in [this paper](https://arxiv.org/abs/1912.07364) and implem
 install.packages("socceR")
 ```
 
-Smaller number represents better predictions.
+Smaller numbers represents better predictions.
 
 ```{r}
 library("socceR")
@@ -53,6 +53,11 @@ trps(m1, c(1, 2, 3, 4))
 
 ## How to model the tournament results
 
+You are free to model the tournament results in any way you want. You
+can even conjure them up. Run a complicated random forest model. Or
+make educated armchair guesses. All that counts is the 7 x 24 matrix.
 
 
 ## Summarizing
+
+Hopefully we can summarize some of the approaches on eRum 2022. In any case we will have updates and the winner listed here on GitHub.
